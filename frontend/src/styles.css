@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: Inter, system-ui, sans-serif; }
+.gradient-card { @apply bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700 rounded-2xl; }
+.section { @apply max-w-6xl mx-auto px-4 md:px-8; }
